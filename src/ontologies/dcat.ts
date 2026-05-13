@@ -32,13 +32,17 @@ export var _self = ns('');
 //A list of all the entities (Classes & Properties) of this ontology, each exported as a NamedNode
 export var DataService = ns('DataService');
 export var Resource = ns('Resource');
+export var Dataset = ns('Dataset');
 export var endpointURL = ns('endpointURL');
+export var servesDataset = ns('servesDataset');
 
 //An extra grouping object so all the entities can be accessed from the prefix/name
 export const dcat = {
   DataService,
   Resource,
+  Dataset,
   endpointURL,
+  servesDataset,
 };
 
 //Registers this ontology to LINCD.JS, so that data loading can be automated amongst other things
