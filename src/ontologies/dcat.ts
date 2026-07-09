@@ -9,14 +9,8 @@ const dataFile = '../data/dcat.json';
  * Load the data of this ontology into memory, thus adding the properties of the entities of this ontology to the local graph.
  */
 export var loadData = () => {
-  if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
-    // CommonJS import
-    return import('../data/dcat.json');
-  } else {
-    // ESM import
-    //@ts-ignore
-    return import('../data/dcat.json',{ with: { type: "json" } }).then((data) => data.default);
-  }
+  //@ts-ignore
+  return import('../data/dcat.json', { with: { type: 'json' } }).then((data) => data.default);
 };
 
 /**
