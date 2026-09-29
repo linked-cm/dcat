@@ -1,5 +1,11 @@
 # @\_linked/dcat
 
+## 1.1.1
+
+### Patch Changes
+
+- [#23](https://github.com/linked-fw/dcat/pull/23) [`59e591f`](https://github.com/linked-fw/dcat/commit/59e591f99fb62d923467e8f7e7f498444a1a564f) Thanks [@flyon](https://github.com/flyon)! - Sourcemaps now embed their TypeScript source, so consumers no longer see 'points to missing source files' warnings.
+
 ## 1.1.0
 
 ### Minor Changes
