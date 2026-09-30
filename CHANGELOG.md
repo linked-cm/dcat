@@ -1,5 +1,11 @@
 # @\_linked/dcat
 
+## 1.1.3
+
+### Patch Changes
+
+- [#38](https://github.com/linked-fw/dcat/pull/38) [`fdf4af7`](https://github.com/linked-fw/dcat/commit/fdf4af78814100ce392661199fbabf06dccd2836) Thanks [@flyon](https://github.com/flyon)! - `main` now points at `lib/esm/index.js`. It named `lib/index.js`, which the build has never produced, so any resolver that reads `main` instead of `exports` could not find the package. The unused `tsconfig-cjs.json` is removed, and a test checks the manifest's entry points against the build output.
+
 ## 1.1.2
 
 ### Patch Changes
