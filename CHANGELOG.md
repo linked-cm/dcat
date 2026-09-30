@@ -1,5 +1,11 @@
 # @\_linked/dcat
 
+## 1.1.2
+
+### Patch Changes
+
+- [#31](https://github.com/linked-fw/dcat/pull/31) [`a8890f2`](https://github.com/linked-fw/dcat/commit/a8890f28dfaac6d3b26dbe38d74b3ba706f537d0) Thanks [@flyon](https://github.com/flyon)! - Add `shapes/index`, a side-effect-only module that registers every shape this package defines and nothing else (no components, no CSS), so `import '@_linked/dcat/shapes/index'` loads the shapes in plain node as well as in a bundle. The package entry now imports it instead of listing shapes one by one.
+
 ## 1.1.1
 
 ### Patch Changes
