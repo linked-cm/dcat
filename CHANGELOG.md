@@ -1,5 +1,11 @@
 # @\_linked/dcat
 
+## 1.1.4
+
+### Patch Changes
+
+- [#43](https://github.com/linked-fw/dcat/pull/43) [`c1bd79e`](https://github.com/linked-fw/dcat/commit/c1bd79e6dc472d8e38ec02d8ee0353920597bc43) Thanks [@flyon](https://github.com/flyon)! - Publish only the files consumers need; the tarball no longer includes `.changeset/`, `.gitattributes`, `.github/`, `renovate.json`, `test/` or tsconfig files.
+
 ## 1.1.3
 
 ### Patch Changes
