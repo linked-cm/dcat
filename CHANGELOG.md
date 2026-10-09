@@ -1,5 +1,11 @@
 # @\_linked/dcat
 
+## 1.1.5
+
+### Patch Changes
+
+- [#46](https://github.com/linked-fw/dcat/pull/46) [`d9f71f0`](https://github.com/linked-fw/dcat/commit/d9f71f0ee8cf2f4b2a1b45e2e1ca8085752b9bf7) Thanks [@flyon](https://github.com/flyon)! - Build with `linked build` instead of a hand-rolled `tsc` + `copyfiles` script, and drop the `rimraf`/`copyfiles` devDependencies. The published `lib/` output is unchanged.
+
 ## 1.1.4
 
 ### Patch Changes
